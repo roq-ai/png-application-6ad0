@@ -1,0 +1,2622 @@
+[
+  {
+    "customer": [
+      {
+        "id": "60104ca8-df8c-482b-a130-f104bff075ee",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-23T04:44:37.089Z",
+        "updated_at": "2023-08-22T07:02:28.762Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec99d4a9-465b-48ed-8938-1d4f92a65978",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T18:17:27.663Z",
+        "updated_at": "2023-08-22T09:32:10.620Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecd46b94-a8ee-4c8b-94cd-d76d9b035a8b",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-22T13:59:10.303Z",
+        "updated_at": "2023-08-22T08:22:37.683Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b4d0175-71a8-4635-a030-1434db674b43",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T06:41:29.112Z",
+        "updated_at": "2023-08-22T05:13:37.616Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fceaaa9-f853-47e9-ae5f-1decbb92b0bf",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T12:52:25.910Z",
+        "updated_at": "2023-08-22T10:14:29.973Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "76bcb56a-02ee-40ea-b6a4-feca330b2b24",
+        "reading_date": "2023-08-22T09:18:41.411Z",
+        "reading_value": 95613,
+        "bill_calculated": false,
+        "bill_amount": 65151,
+        "created_at": "2023-08-22T17:30:44.488Z",
+        "updated_at": "2023-08-22T08:20:29.616Z",
+        "customer_id": "0b4d0175-71a8-4635-a030-1434db674b43"
+      },
+      {
+        "id": "7b84ba2e-6224-4bb7-be10-d975b055d4c9",
+        "reading_date": "2023-08-22T23:17:56.992Z",
+        "reading_value": 48825,
+        "bill_calculated": false,
+        "bill_amount": 89227,
+        "created_at": "2023-08-23T00:48:30.001Z",
+        "updated_at": "2023-08-22T05:08:43.210Z",
+        "customer_id": "ecd46b94-a8ee-4c8b-94cd-d76d9b035a8b"
+      },
+      {
+        "id": "56637711-c3c3-40c0-94d1-9769b9147152",
+        "reading_date": "2023-08-22T08:37:22.412Z",
+        "reading_value": 74430,
+        "bill_calculated": true,
+        "bill_amount": 56554,
+        "created_at": "2023-08-22T17:13:52.673Z",
+        "updated_at": "2023-08-22T22:43:57.045Z",
+        "customer_id": "ecd46b94-a8ee-4c8b-94cd-d76d9b035a8b"
+      },
+      {
+        "id": "3db2e384-e5b2-4147-bdc6-7baca763e1f5",
+        "reading_date": "2023-08-22T20:27:56.093Z",
+        "reading_value": 47308,
+        "bill_calculated": false,
+        "bill_amount": 47080,
+        "created_at": "2023-08-23T02:42:11.886Z",
+        "updated_at": "2023-08-23T04:47:46.776Z",
+        "customer_id": "ec99d4a9-465b-48ed-8938-1d4f92a65978"
+      },
+      {
+        "id": "df240a91-f6c3-4f44-965b-ac44f35f2b44",
+        "reading_date": "2023-08-22T21:44:46.558Z",
+        "reading_value": 10139,
+        "bill_calculated": true,
+        "bill_amount": 78476,
+        "created_at": "2023-08-22T19:06:44.713Z",
+        "updated_at": "2023-08-22T23:56:12.151Z",
+        "customer_id": "60104ca8-df8c-482b-a130-f104bff075ee"
+      }
+    ],
+    "bill": [
+      {
+        "id": "5249f4f2-6840-4ad9-b0dd-ee2a12ca9914",
+        "bill_date": "2023-08-22T08:58:37.299Z",
+        "bill_amount": 85906,
+        "bill_paid": true,
+        "created_at": "2023-08-22T04:54:57.011Z",
+        "updated_at": "2023-08-22T19:02:19.101Z",
+        "customer_id": "9fceaaa9-f853-47e9-ae5f-1decbb92b0bf",
+        "meter_reading_id": "56637711-c3c3-40c0-94d1-9769b9147152"
+      },
+      {
+        "id": "160562cd-5f81-465c-95bf-d7ddcec3d826",
+        "bill_date": "2023-08-22T22:13:14.722Z",
+        "bill_amount": 99479,
+        "bill_paid": false,
+        "created_at": "2023-08-22T09:15:42.041Z",
+        "updated_at": "2023-08-23T00:48:16.492Z",
+        "customer_id": "ecd46b94-a8ee-4c8b-94cd-d76d9b035a8b",
+        "meter_reading_id": "76bcb56a-02ee-40ea-b6a4-feca330b2b24"
+      },
+      {
+        "id": "4ba4fded-e80d-4221-a10d-5bf9a8b11924",
+        "bill_date": "2023-08-22T14:20:09.779Z",
+        "bill_amount": 46647,
+        "bill_paid": true,
+        "created_at": "2023-08-22T22:04:36.188Z",
+        "updated_at": "2023-08-22T19:49:48.002Z",
+        "customer_id": "0b4d0175-71a8-4635-a030-1434db674b43",
+        "meter_reading_id": "56637711-c3c3-40c0-94d1-9769b9147152"
+      },
+      {
+        "id": "2b60f847-bb0a-483a-bc61-f3dcc3b7b33d",
+        "bill_date": "2023-08-22T13:19:44.218Z",
+        "bill_amount": 19952,
+        "bill_paid": true,
+        "created_at": "2023-08-22T23:07:27.563Z",
+        "updated_at": "2023-08-22T16:09:18.615Z",
+        "customer_id": "60104ca8-df8c-482b-a130-f104bff075ee",
+        "meter_reading_id": "56637711-c3c3-40c0-94d1-9769b9147152"
+      },
+      {
+        "id": "957d4a87-8f83-4c10-82b0-287267fdc5dc",
+        "bill_date": "2023-08-22T13:57:16.387Z",
+        "bill_amount": 96504,
+        "bill_paid": false,
+        "created_at": "2023-08-23T00:29:29.855Z",
+        "updated_at": "2023-08-23T02:19:24.894Z",
+        "customer_id": "ecd46b94-a8ee-4c8b-94cd-d76d9b035a8b",
+        "meter_reading_id": "76bcb56a-02ee-40ea-b6a4-feca330b2b24"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "30f9b10d-f972-4355-b47a-b7a2116279e1",
+        "assignment_date": "2023-08-22T13:22:36.736Z",
+        "created_at": "2023-08-23T00:07:26.706Z",
+        "updated_at": "2023-08-22T08:41:07.597Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "ecd46b94-a8ee-4c8b-94cd-d76d9b035a8b",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "a99511d8-103b-4646-bde4-b308fa471c54",
+        "assignment_date": "2023-08-22T09:39:55.681Z",
+        "created_at": "2023-08-22T06:57:19.745Z",
+        "updated_at": "2023-08-22T20:21:18.827Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "9fceaaa9-f853-47e9-ae5f-1decbb92b0bf",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "f9efcdaf-4bd4-4ec6-bb4e-802aabc73ebf",
+        "assignment_date": "2023-08-23T02:23:50.637Z",
+        "created_at": "2023-08-22T11:08:58.240Z",
+        "updated_at": "2023-08-22T15:18:22.176Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "9fceaaa9-f853-47e9-ae5f-1decbb92b0bf",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "edee56ed-d07f-4f27-b6cf-d915f480e45b",
+        "assignment_date": "2023-08-22T05:46:44.126Z",
+        "created_at": "2023-08-23T02:03:34.974Z",
+        "updated_at": "2023-08-23T04:33:45.686Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "ecd46b94-a8ee-4c8b-94cd-d76d9b035a8b",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "5381f38d-93da-48f5-93a5-d3684b2b3574",
+        "assignment_date": "2023-08-22T06:09:55.612Z",
+        "created_at": "2023-08-22T05:20:29.943Z",
+        "updated_at": "2023-08-22T17:55:36.825Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "0b4d0175-71a8-4635-a030-1434db674b43",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4ae13617-f605-4b2a-b6ef-05ccc29af483",
+        "email": "Danika33@yahoo.com",
+        "firstName": "Camron",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/442.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d98b7c14-92b8-4b64-ba43-67acf357dff6",
+        "email": "Jayce.Lindgren30@yahoo.com",
+        "firstName": "Naomi",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b581112-26bd-48da-ba33-f02be6daded5",
+        "email": "Bernhard_Schmeler@yahoo.com",
+        "firstName": "Lonnie",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/508.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4efa2a1a-f0b2-4325-9b11-77eb53588df1",
+        "email": "Anissa_Nader@yahoo.com",
+        "firstName": "Jettie",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74465145",
+        "tenantId": null
+      },
+      {
+        "reference": "0194ec90-7f9e-4299-9b45-3264fa421083",
+        "email": "Gerard.Lehner@gmail.com",
+        "firstName": "Leonard",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35413989",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "e77ca804-d429-463d-a1bc-2524674814d1",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T20:40:49.457Z",
+        "updated_at": "2023-08-22T21:07:29.219Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b50c9c14-2b50-4b50-82bf-93d68cb4fadb",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T20:18:24.524Z",
+        "updated_at": "2023-08-23T02:51:31.686Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ce65397-5c2b-4980-91f4-45dc8a332c32",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-22T08:03:15.585Z",
+        "updated_at": "2023-08-22T11:26:14.854Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a23a94fb-a2bf-4e60-8bf0-2d7e483bda02",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T17:40:26.121Z",
+        "updated_at": "2023-08-23T02:12:31.202Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02c08719-13af-4db0-ba6c-6e772c37e35e",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T09:45:29.171Z",
+        "updated_at": "2023-08-22T09:11:48.526Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "c8883b58-66ec-4011-abc7-aa2406b43a6f",
+        "reading_date": "2023-08-22T17:47:03.614Z",
+        "reading_value": 30036,
+        "bill_calculated": false,
+        "bill_amount": 46631,
+        "created_at": "2023-08-22T16:25:39.664Z",
+        "updated_at": "2023-08-23T00:16:08.673Z",
+        "customer_id": "3ce65397-5c2b-4980-91f4-45dc8a332c32"
+      },
+      {
+        "id": "0c289acc-b186-410e-8ca2-92d51894d612",
+        "reading_date": "2023-08-22T11:33:27.955Z",
+        "reading_value": 2266,
+        "bill_calculated": false,
+        "bill_amount": 9227,
+        "created_at": "2023-08-22T06:40:56.723Z",
+        "updated_at": "2023-08-23T04:35:31.077Z",
+        "customer_id": "b50c9c14-2b50-4b50-82bf-93d68cb4fadb"
+      },
+      {
+        "id": "f524948c-9f52-42de-a90d-f0ff861964be",
+        "reading_date": "2023-08-22T21:26:00.626Z",
+        "reading_value": 26081,
+        "bill_calculated": true,
+        "bill_amount": 52901,
+        "created_at": "2023-08-22T17:10:01.627Z",
+        "updated_at": "2023-08-22T10:47:10.162Z",
+        "customer_id": "e77ca804-d429-463d-a1bc-2524674814d1"
+      },
+      {
+        "id": "55b3d204-07c9-4c22-8faf-663e6d5853b8",
+        "reading_date": "2023-08-22T05:52:50.154Z",
+        "reading_value": 48343,
+        "bill_calculated": false,
+        "bill_amount": 74129,
+        "created_at": "2023-08-22T20:31:57.644Z",
+        "updated_at": "2023-08-22T10:26:14.188Z",
+        "customer_id": "3ce65397-5c2b-4980-91f4-45dc8a332c32"
+      },
+      {
+        "id": "da8277a1-a859-479b-ada6-2698723fd85e",
+        "reading_date": "2023-08-22T14:59:11.253Z",
+        "reading_value": 77925,
+        "bill_calculated": true,
+        "bill_amount": 24378,
+        "created_at": "2023-08-22T10:27:40.785Z",
+        "updated_at": "2023-08-23T04:10:50.759Z",
+        "customer_id": "e77ca804-d429-463d-a1bc-2524674814d1"
+      }
+    ],
+    "bill": [
+      {
+        "id": "ce898dc5-8f96-48ea-b370-7265fbf3d32c",
+        "bill_date": "2023-08-22T09:24:54.566Z",
+        "bill_amount": 53301,
+        "bill_paid": true,
+        "created_at": "2023-08-22T23:29:11.846Z",
+        "updated_at": "2023-08-22T13:35:27.558Z",
+        "customer_id": "3ce65397-5c2b-4980-91f4-45dc8a332c32",
+        "meter_reading_id": "0c289acc-b186-410e-8ca2-92d51894d612"
+      },
+      {
+        "id": "b619a2ad-4b1b-446f-8e81-cfd1a07edbc9",
+        "bill_date": "2023-08-22T15:05:05.204Z",
+        "bill_amount": 23354,
+        "bill_paid": false,
+        "created_at": "2023-08-22T18:46:28.295Z",
+        "updated_at": "2023-08-22T22:49:47.130Z",
+        "customer_id": "02c08719-13af-4db0-ba6c-6e772c37e35e",
+        "meter_reading_id": "da8277a1-a859-479b-ada6-2698723fd85e"
+      },
+      {
+        "id": "2f21a855-6653-4bed-b561-0bb1426f66b2",
+        "bill_date": "2023-08-22T20:27:27.609Z",
+        "bill_amount": 66524,
+        "bill_paid": false,
+        "created_at": "2023-08-22T13:33:54.521Z",
+        "updated_at": "2023-08-22T19:06:38.383Z",
+        "customer_id": "02c08719-13af-4db0-ba6c-6e772c37e35e",
+        "meter_reading_id": "c8883b58-66ec-4011-abc7-aa2406b43a6f"
+      },
+      {
+        "id": "53712a6a-2580-49b7-b5bf-07d558a80642",
+        "bill_date": "2023-08-22T17:33:30.685Z",
+        "bill_amount": 73081,
+        "bill_paid": true,
+        "created_at": "2023-08-22T20:14:36.292Z",
+        "updated_at": "2023-08-23T03:06:08.265Z",
+        "customer_id": "e77ca804-d429-463d-a1bc-2524674814d1",
+        "meter_reading_id": "f524948c-9f52-42de-a90d-f0ff861964be"
+      },
+      {
+        "id": "c85f6d14-b97e-449b-a329-1080bcd2d863",
+        "bill_date": "2023-08-23T01:04:57.328Z",
+        "bill_amount": 10719,
+        "bill_paid": true,
+        "created_at": "2023-08-22T05:15:44.572Z",
+        "updated_at": "2023-08-22T04:54:48.058Z",
+        "customer_id": "b50c9c14-2b50-4b50-82bf-93d68cb4fadb",
+        "meter_reading_id": "55b3d204-07c9-4c22-8faf-663e6d5853b8"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "1a27d4a8-5a56-4564-9860-0ecd7284f1dc",
+        "assignment_date": "2023-08-22T06:14:30.369Z",
+        "created_at": "2023-08-23T01:53:22.576Z",
+        "updated_at": "2023-08-22T19:34:15.886Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "b50c9c14-2b50-4b50-82bf-93d68cb4fadb",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "f18b6d88-1dba-4d2a-b5d2-e39e466e0e02",
+        "assignment_date": "2023-08-22T12:00:25.879Z",
+        "created_at": "2023-08-22T17:08:24.216Z",
+        "updated_at": "2023-08-22T09:15:52.437Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "a23a94fb-a2bf-4e60-8bf0-2d7e483bda02",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "3996c004-f761-4329-b035-9777981adf1b",
+        "assignment_date": "2023-08-22T13:50:50.855Z",
+        "created_at": "2023-08-22T13:18:02.689Z",
+        "updated_at": "2023-08-22T06:12:48.152Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "a23a94fb-a2bf-4e60-8bf0-2d7e483bda02",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "164e9588-e541-46eb-9c2d-871e2834001f",
+        "assignment_date": "2023-08-23T03:46:26.151Z",
+        "created_at": "2023-08-22T19:21:45.246Z",
+        "updated_at": "2023-08-22T19:58:38.915Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "a23a94fb-a2bf-4e60-8bf0-2d7e483bda02",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "c64441f3-c991-427d-b04a-498bb9fcdcea",
+        "assignment_date": "2023-08-23T01:58:38.967Z",
+        "created_at": "2023-08-22T09:57:03.462Z",
+        "updated_at": "2023-08-23T01:32:02.779Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "a23a94fb-a2bf-4e60-8bf0-2d7e483bda02",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36808fd6-e8cf-4635-ada2-98427421b27b",
+        "email": "Kristy24@yahoo.com",
+        "firstName": "Ivy",
+        "lastName": "Auer-Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52120680",
+        "tenantId": null
+      },
+      {
+        "reference": "fa3b6f1a-2918-4102-9eb9-70b70adcceda",
+        "email": "Rebecca.Strosin@hotmail.com",
+        "firstName": "Raoul",
+        "lastName": "D'Amore-Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1136.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "297bd8d4-f493-4f4b-afb2-cd9295fa1ae2",
+        "email": "Francisco.Schamberger@gmail.com",
+        "firstName": "Arvid",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea7ff25c-2f87-4a6f-a4ac-8fc9fbca4fab",
+        "email": "Violet37@hotmail.com",
+        "firstName": "Bianka",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/826.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "700a6e54-7d4c-4aa7-b06c-5359b1c8bda7",
+        "email": "Willard_Buckridge98@yahoo.com",
+        "firstName": "Akeem",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31227546",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "f1e377fa-d42f-4921-8633-0274cdf337c5",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T20:01:30.397Z",
+        "updated_at": "2023-08-22T09:26:11.537Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b999a049-a43d-4035-b65c-f4176cc6746a",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T22:08:38.734Z",
+        "updated_at": "2023-08-22T13:33:13.256Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "333ce9c4-273d-4728-ba05-a6b3ec9b020b",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-22T15:26:26.809Z",
+        "updated_at": "2023-08-22T17:04:57.410Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5fa5bb0-9672-42d9-8b44-af2dc48abfd8",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T13:20:12.821Z",
+        "updated_at": "2023-08-22T22:27:53.916Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c6ab90e-2322-46f1-aa03-0d22a6f5494d",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-08-22T19:27:25.603Z",
+        "updated_at": "2023-08-22T07:29:22.176Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "c7f3313a-3116-479b-a91f-58a111f90b6e",
+        "reading_date": "2023-08-22T05:10:04.571Z",
+        "reading_value": 82248,
+        "bill_calculated": false,
+        "bill_amount": 58951,
+        "created_at": "2023-08-22T06:53:17.034Z",
+        "updated_at": "2023-08-23T03:16:57.518Z",
+        "customer_id": "333ce9c4-273d-4728-ba05-a6b3ec9b020b"
+      },
+      {
+        "id": "0e3f9ddd-ed81-49c7-be94-a7eeed63c3f5",
+        "reading_date": "2023-08-23T00:08:10.141Z",
+        "reading_value": 4199,
+        "bill_calculated": true,
+        "bill_amount": 9169,
+        "created_at": "2023-08-22T07:35:55.685Z",
+        "updated_at": "2023-08-23T02:19:27.073Z",
+        "customer_id": "b999a049-a43d-4035-b65c-f4176cc6746a"
+      },
+      {
+        "id": "3f431b1e-1b8e-48e6-b35c-1bf0eda960f3",
+        "reading_date": "2023-08-22T15:37:50.446Z",
+        "reading_value": 39628,
+        "bill_calculated": false,
+        "bill_amount": 599,
+        "created_at": "2023-08-22T23:29:45.846Z",
+        "updated_at": "2023-08-22T11:10:48.368Z",
+        "customer_id": "8c6ab90e-2322-46f1-aa03-0d22a6f5494d"
+      },
+      {
+        "id": "5b001438-7e00-409d-9ae4-ea851db370ad",
+        "reading_date": "2023-08-22T08:11:26.832Z",
+        "reading_value": 47822,
+        "bill_calculated": true,
+        "bill_amount": 74211,
+        "created_at": "2023-08-23T04:14:07.289Z",
+        "updated_at": "2023-08-22T08:19:51.618Z",
+        "customer_id": "b999a049-a43d-4035-b65c-f4176cc6746a"
+      },
+      {
+        "id": "09bba1b4-a536-4aba-a040-92eba7a18a1a",
+        "reading_date": "2023-08-23T02:59:10.111Z",
+        "reading_value": 3703,
+        "bill_calculated": true,
+        "bill_amount": 28927,
+        "created_at": "2023-08-23T02:26:06.197Z",
+        "updated_at": "2023-08-22T09:52:10.551Z",
+        "customer_id": "f5fa5bb0-9672-42d9-8b44-af2dc48abfd8"
+      }
+    ],
+    "bill": [
+      {
+        "id": "1ee83bb4-e0c5-454f-8a14-156a709aa879",
+        "bill_date": "2023-08-22T07:10:23.234Z",
+        "bill_amount": 16273,
+        "bill_paid": false,
+        "created_at": "2023-08-22T18:09:00.792Z",
+        "updated_at": "2023-08-22T08:48:27.327Z",
+        "customer_id": "f5fa5bb0-9672-42d9-8b44-af2dc48abfd8",
+        "meter_reading_id": "c7f3313a-3116-479b-a91f-58a111f90b6e"
+      },
+      {
+        "id": "5f3397ff-04ef-435e-a2c8-3626e709ada8",
+        "bill_date": "2023-08-22T23:49:35.721Z",
+        "bill_amount": 49763,
+        "bill_paid": true,
+        "created_at": "2023-08-22T15:27:39.843Z",
+        "updated_at": "2023-08-22T06:19:21.602Z",
+        "customer_id": "b999a049-a43d-4035-b65c-f4176cc6746a",
+        "meter_reading_id": "5b001438-7e00-409d-9ae4-ea851db370ad"
+      },
+      {
+        "id": "0ba66862-eb0c-4de3-a803-dddaa91ef8ae",
+        "bill_date": "2023-08-22T19:05:42.013Z",
+        "bill_amount": 25014,
+        "bill_paid": true,
+        "created_at": "2023-08-23T01:11:39.426Z",
+        "updated_at": "2023-08-22T19:19:57.568Z",
+        "customer_id": "f5fa5bb0-9672-42d9-8b44-af2dc48abfd8",
+        "meter_reading_id": "c7f3313a-3116-479b-a91f-58a111f90b6e"
+      },
+      {
+        "id": "b0a380a7-7ace-423b-8d2e-fd8bd4948a53",
+        "bill_date": "2023-08-23T04:34:34.405Z",
+        "bill_amount": 65655,
+        "bill_paid": true,
+        "created_at": "2023-08-22T22:49:18.169Z",
+        "updated_at": "2023-08-22T10:27:24.950Z",
+        "customer_id": "b999a049-a43d-4035-b65c-f4176cc6746a",
+        "meter_reading_id": "3f431b1e-1b8e-48e6-b35c-1bf0eda960f3"
+      },
+      {
+        "id": "f95502cd-52e7-450f-8ef6-b7d26348a448",
+        "bill_date": "2023-08-23T02:32:25.190Z",
+        "bill_amount": 4540,
+        "bill_paid": false,
+        "created_at": "2023-08-22T20:23:32.390Z",
+        "updated_at": "2023-08-22T18:29:59.503Z",
+        "customer_id": "f1e377fa-d42f-4921-8633-0274cdf337c5",
+        "meter_reading_id": "c7f3313a-3116-479b-a91f-58a111f90b6e"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "bcb9e686-8f6b-476c-9999-2c1ef4d2a962",
+        "assignment_date": "2023-08-22T08:35:09.512Z",
+        "created_at": "2023-08-22T20:50:50.900Z",
+        "updated_at": "2023-08-22T07:56:41.448Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "8c6ab90e-2322-46f1-aa03-0d22a6f5494d",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "0f62ed38-18e6-4363-965a-f58d5fb5c226",
+        "assignment_date": "2023-08-22T12:42:00.421Z",
+        "created_at": "2023-08-22T15:23:50.286Z",
+        "updated_at": "2023-08-22T22:10:05.602Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "333ce9c4-273d-4728-ba05-a6b3ec9b020b",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "3ab4ee43-e2d1-4b5c-926f-b02f5e897615",
+        "assignment_date": "2023-08-22T12:02:43.700Z",
+        "created_at": "2023-08-22T06:35:58.081Z",
+        "updated_at": "2023-08-22T11:22:18.876Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "333ce9c4-273d-4728-ba05-a6b3ec9b020b",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "83eca1dc-2fb8-480e-88aa-82fece742948",
+        "assignment_date": "2023-08-22T15:40:51.597Z",
+        "created_at": "2023-08-22T14:03:24.961Z",
+        "updated_at": "2023-08-22T12:14:40.847Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "f1e377fa-d42f-4921-8633-0274cdf337c5",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "61041d5f-306c-4ab9-83fc-76b24d416d32",
+        "assignment_date": "2023-08-22T12:18:51.705Z",
+        "created_at": "2023-08-22T11:42:17.739Z",
+        "updated_at": "2023-08-23T03:45:04.172Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "333ce9c4-273d-4728-ba05-a6b3ec9b020b",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a386b6c7-bf68-454c-93da-5c64466202c2",
+        "email": "Blaze_Block@yahoo.com",
+        "firstName": "Magali",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb30b348-2a68-4f43-9754-d7378b380b72",
+        "email": "Anya_OConnell@gmail.com",
+        "firstName": "Laurie",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61456164",
+        "tenantId": null
+      },
+      {
+        "reference": "711a7704-a869-44b5-ae27-a1cdb8124fe1",
+        "email": "Triston90@yahoo.com",
+        "firstName": "Nayeli",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/900.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "160b58b6-1a2f-47d0-84d3-ef4a8e80724a",
+        "email": "Maddison_Grimes74@yahoo.com",
+        "firstName": "Francis",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/902.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7bfa801-fd56-4fdd-b117-ada2c9bf0065",
+        "email": "Alexys39@yahoo.com",
+        "firstName": "Skye",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "7a0ea492-f36f-451a-90e3-058d538aeebe",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T14:21:04.312Z",
+        "updated_at": "2023-08-23T03:50:00.993Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9249623d-425f-4e4a-be85-f91d0f1d08cb",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T10:43:35.321Z",
+        "updated_at": "2023-08-22T07:30:19.664Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d9b1628-411d-4574-894a-a2036de20ea6",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-23T00:33:44.335Z",
+        "updated_at": "2023-08-22T09:06:59.602Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "155b7c7c-2d91-4802-bafa-cc2957833508",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T06:58:07.719Z",
+        "updated_at": "2023-08-22T08:08:58.024Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f929969-abd1-4c7c-8317-5903aabf85bb",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T11:12:46.165Z",
+        "updated_at": "2023-08-22T15:07:09.362Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "2c0fbdbb-5294-4e96-81ff-82645d3c592a",
+        "reading_date": "2023-08-22T18:17:58.955Z",
+        "reading_value": 90539,
+        "bill_calculated": true,
+        "bill_amount": 3280,
+        "created_at": "2023-08-22T17:15:11.957Z",
+        "updated_at": "2023-08-22T06:26:34.759Z",
+        "customer_id": "8d9b1628-411d-4574-894a-a2036de20ea6"
+      },
+      {
+        "id": "efa6c9ff-b562-4038-9a30-02e2016e1e96",
+        "reading_date": "2023-08-22T08:38:09.516Z",
+        "reading_value": 60490,
+        "bill_calculated": true,
+        "bill_amount": 47429,
+        "created_at": "2023-08-22T22:07:01.093Z",
+        "updated_at": "2023-08-22T21:29:27.488Z",
+        "customer_id": "155b7c7c-2d91-4802-bafa-cc2957833508"
+      },
+      {
+        "id": "dfee85b0-f3c7-42d2-88ea-d64cce303b38",
+        "reading_date": "2023-08-23T00:28:31.354Z",
+        "reading_value": 69102,
+        "bill_calculated": false,
+        "bill_amount": 99678,
+        "created_at": "2023-08-23T00:29:02.449Z",
+        "updated_at": "2023-08-22T16:17:53.251Z",
+        "customer_id": "6f929969-abd1-4c7c-8317-5903aabf85bb"
+      },
+      {
+        "id": "c7939ab0-e0c2-48b5-b3bd-dcd52031545f",
+        "reading_date": "2023-08-22T17:52:29.049Z",
+        "reading_value": 79764,
+        "bill_calculated": true,
+        "bill_amount": 19016,
+        "created_at": "2023-08-22T16:09:34.778Z",
+        "updated_at": "2023-08-22T12:57:39.472Z",
+        "customer_id": "155b7c7c-2d91-4802-bafa-cc2957833508"
+      },
+      {
+        "id": "8ab24ded-291b-4aa2-8fa8-4ed9ad95a861",
+        "reading_date": "2023-08-23T04:20:26.675Z",
+        "reading_value": 7674,
+        "bill_calculated": false,
+        "bill_amount": 99633,
+        "created_at": "2023-08-22T08:16:01.561Z",
+        "updated_at": "2023-08-23T01:41:56.871Z",
+        "customer_id": "9249623d-425f-4e4a-be85-f91d0f1d08cb"
+      }
+    ],
+    "bill": [
+      {
+        "id": "f384ae33-136c-4c5b-a08a-dd91c40612cb",
+        "bill_date": "2023-08-23T01:00:00.277Z",
+        "bill_amount": 86251,
+        "bill_paid": false,
+        "created_at": "2023-08-22T06:48:52.873Z",
+        "updated_at": "2023-08-22T20:00:09.391Z",
+        "customer_id": "7a0ea492-f36f-451a-90e3-058d538aeebe",
+        "meter_reading_id": "8ab24ded-291b-4aa2-8fa8-4ed9ad95a861"
+      },
+      {
+        "id": "01b184ee-e090-4820-ba3f-c8dc8a5e55e1",
+        "bill_date": "2023-08-22T11:00:38.593Z",
+        "bill_amount": 47927,
+        "bill_paid": true,
+        "created_at": "2023-08-22T05:38:46.960Z",
+        "updated_at": "2023-08-22T11:20:18.768Z",
+        "customer_id": "7a0ea492-f36f-451a-90e3-058d538aeebe",
+        "meter_reading_id": "c7939ab0-e0c2-48b5-b3bd-dcd52031545f"
+      },
+      {
+        "id": "caf595cd-ef1f-412b-b6d2-1ccaf3c15e38",
+        "bill_date": "2023-08-22T21:16:09.008Z",
+        "bill_amount": 20332,
+        "bill_paid": false,
+        "created_at": "2023-08-22T19:02:13.599Z",
+        "updated_at": "2023-08-22T08:27:29.894Z",
+        "customer_id": "6f929969-abd1-4c7c-8317-5903aabf85bb",
+        "meter_reading_id": "c7939ab0-e0c2-48b5-b3bd-dcd52031545f"
+      },
+      {
+        "id": "a43c57a5-73cb-4d19-9e0e-d43cc0baf28f",
+        "bill_date": "2023-08-22T14:57:08.335Z",
+        "bill_amount": 95302,
+        "bill_paid": true,
+        "created_at": "2023-08-23T02:46:13.415Z",
+        "updated_at": "2023-08-22T06:54:03.007Z",
+        "customer_id": "8d9b1628-411d-4574-894a-a2036de20ea6",
+        "meter_reading_id": "dfee85b0-f3c7-42d2-88ea-d64cce303b38"
+      },
+      {
+        "id": "28d1340f-c0c9-4a02-8201-577fdc14acbe",
+        "bill_date": "2023-08-22T10:16:15.261Z",
+        "bill_amount": 99520,
+        "bill_paid": false,
+        "created_at": "2023-08-22T12:41:10.253Z",
+        "updated_at": "2023-08-22T23:55:44.111Z",
+        "customer_id": "7a0ea492-f36f-451a-90e3-058d538aeebe",
+        "meter_reading_id": "efa6c9ff-b562-4038-9a30-02e2016e1e96"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "89b68023-10d8-4904-84c5-bea49d77f5b7",
+        "assignment_date": "2023-08-23T01:23:06.298Z",
+        "created_at": "2023-08-22T14:31:39.771Z",
+        "updated_at": "2023-08-23T04:15:59.881Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "8d9b1628-411d-4574-894a-a2036de20ea6",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "6178f814-5639-4681-b636-18ea70f19adf",
+        "assignment_date": "2023-08-23T04:07:51.081Z",
+        "created_at": "2023-08-22T06:58:20.243Z",
+        "updated_at": "2023-08-22T08:30:49.827Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "155b7c7c-2d91-4802-bafa-cc2957833508",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "d9338392-7a6c-4f42-b958-c8fa0f3d0566",
+        "assignment_date": "2023-08-22T16:12:14.041Z",
+        "created_at": "2023-08-22T15:53:59.885Z",
+        "updated_at": "2023-08-22T12:34:31.962Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "8d9b1628-411d-4574-894a-a2036de20ea6",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "435ff7e0-9825-4999-99c6-5b064d41d078",
+        "assignment_date": "2023-08-23T03:26:47.193Z",
+        "created_at": "2023-08-22T06:13:21.637Z",
+        "updated_at": "2023-08-22T21:41:40.854Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "8d9b1628-411d-4574-894a-a2036de20ea6",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "f1b75606-f8a3-4753-ae08-2febaf453747",
+        "assignment_date": "2023-08-22T11:25:26.538Z",
+        "created_at": "2023-08-22T17:27:40.459Z",
+        "updated_at": "2023-08-22T19:22:48.448Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "7a0ea492-f36f-451a-90e3-058d538aeebe",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2213c448-f3fc-4c0f-a197-d4409b1fd674",
+        "email": "Taurean.Harvey76@gmail.com",
+        "firstName": "Miguel",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/292.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd6199de-1fc0-4f7a-bfed-5eef9eeb6bf0",
+        "email": "Madyson10@gmail.com",
+        "firstName": "Ezra",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63036675",
+        "tenantId": null
+      },
+      {
+        "reference": "5074eaaa-681d-4b00-8b69-0eb4523c7e17",
+        "email": "Caroline90@yahoo.com",
+        "firstName": "Aaron",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50143212",
+        "tenantId": null
+      },
+      {
+        "reference": "27ecac00-65a4-4b04-80af-ed1ac20f603b",
+        "email": "Gabriella60@gmail.com",
+        "firstName": "Lizeth",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/690.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c244b626-754a-4c0e-bcda-92b244bf7f3c",
+        "email": "Nathanael.Thiel3@yahoo.com",
+        "firstName": "Keegan",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/103.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "ccff1fc6-fafc-4307-bf24-c63cd3baf1c4",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T10:36:19.519Z",
+        "updated_at": "2023-08-22T09:09:08.420Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01a857ba-4508-4b90-89c8-3ec1e5cebe8d",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-23T01:42:37.133Z",
+        "updated_at": "2023-08-23T01:41:00.827Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db47000e-8090-44fa-992e-26112e815415",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-22T09:52:45.917Z",
+        "updated_at": "2023-08-22T22:21:36.155Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb44dae2-7fd9-48a4-bcae-697a2fbad5d4",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T23:55:45.936Z",
+        "updated_at": "2023-08-22T06:56:33.898Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3f2ffa9-ec92-463e-ad9c-271419ed16a3",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T08:21:12.944Z",
+        "updated_at": "2023-08-22T10:35:53.015Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "6c39067a-1728-41e9-bdaf-1e343820bf60",
+        "reading_date": "2023-08-22T07:35:02.559Z",
+        "reading_value": 25090,
+        "bill_calculated": true,
+        "bill_amount": 64368,
+        "created_at": "2023-08-22T13:23:08.457Z",
+        "updated_at": "2023-08-22T07:35:30.287Z",
+        "customer_id": "f3f2ffa9-ec92-463e-ad9c-271419ed16a3"
+      },
+      {
+        "id": "2cd3d2d1-e845-4833-af63-458391f6d1aa",
+        "reading_date": "2023-08-23T03:36:43.736Z",
+        "reading_value": 32820,
+        "bill_calculated": true,
+        "bill_amount": 52151,
+        "created_at": "2023-08-22T05:47:28.225Z",
+        "updated_at": "2023-08-23T00:39:15.340Z",
+        "customer_id": "01a857ba-4508-4b90-89c8-3ec1e5cebe8d"
+      },
+      {
+        "id": "05f386ec-b07e-4fa5-bf65-49690cfe86ac",
+        "reading_date": "2023-08-23T04:40:56.124Z",
+        "reading_value": 27956,
+        "bill_calculated": true,
+        "bill_amount": 27082,
+        "created_at": "2023-08-22T14:43:25.136Z",
+        "updated_at": "2023-08-23T00:16:43.582Z",
+        "customer_id": "db47000e-8090-44fa-992e-26112e815415"
+      },
+      {
+        "id": "23b5c14f-c1e7-408b-8677-1da294b23421",
+        "reading_date": "2023-08-22T06:15:00.376Z",
+        "reading_value": 30375,
+        "bill_calculated": true,
+        "bill_amount": 25165,
+        "created_at": "2023-08-23T01:03:09.016Z",
+        "updated_at": "2023-08-22T11:20:57.638Z",
+        "customer_id": "db47000e-8090-44fa-992e-26112e815415"
+      },
+      {
+        "id": "42851701-73b6-426c-9ca5-5d6f72d984ac",
+        "reading_date": "2023-08-22T22:28:33.139Z",
+        "reading_value": 47407,
+        "bill_calculated": true,
+        "bill_amount": 86099,
+        "created_at": "2023-08-22T21:50:35.847Z",
+        "updated_at": "2023-08-22T10:41:54.359Z",
+        "customer_id": "f3f2ffa9-ec92-463e-ad9c-271419ed16a3"
+      }
+    ],
+    "bill": [
+      {
+        "id": "d4a92285-53c0-408f-9eed-2685aa2e7992",
+        "bill_date": "2023-08-23T02:35:28.938Z",
+        "bill_amount": 66298,
+        "bill_paid": false,
+        "created_at": "2023-08-22T06:21:44.126Z",
+        "updated_at": "2023-08-22T22:37:09.863Z",
+        "customer_id": "01a857ba-4508-4b90-89c8-3ec1e5cebe8d",
+        "meter_reading_id": "2cd3d2d1-e845-4833-af63-458391f6d1aa"
+      },
+      {
+        "id": "4a064902-7a3d-43ac-9bf4-94253bffd182",
+        "bill_date": "2023-08-22T07:22:45.632Z",
+        "bill_amount": 52238,
+        "bill_paid": false,
+        "created_at": "2023-08-22T23:05:07.468Z",
+        "updated_at": "2023-08-22T18:40:52.405Z",
+        "customer_id": "db47000e-8090-44fa-992e-26112e815415",
+        "meter_reading_id": "05f386ec-b07e-4fa5-bf65-49690cfe86ac"
+      },
+      {
+        "id": "af452952-4198-4165-a861-e0ad5b9b1a11",
+        "bill_date": "2023-08-22T20:05:34.798Z",
+        "bill_amount": 4026,
+        "bill_paid": false,
+        "created_at": "2023-08-22T15:36:21.868Z",
+        "updated_at": "2023-08-23T02:06:45.694Z",
+        "customer_id": "cb44dae2-7fd9-48a4-bcae-697a2fbad5d4",
+        "meter_reading_id": "05f386ec-b07e-4fa5-bf65-49690cfe86ac"
+      },
+      {
+        "id": "99e5bec0-2bd7-4d76-9cbc-3d353f028214",
+        "bill_date": "2023-08-22T14:47:48.962Z",
+        "bill_amount": 5870,
+        "bill_paid": false,
+        "created_at": "2023-08-22T10:44:16.514Z",
+        "updated_at": "2023-08-22T15:58:39.468Z",
+        "customer_id": "f3f2ffa9-ec92-463e-ad9c-271419ed16a3",
+        "meter_reading_id": "42851701-73b6-426c-9ca5-5d6f72d984ac"
+      },
+      {
+        "id": "ce07840f-24f1-4f48-8e7e-43cdd3184f56",
+        "bill_date": "2023-08-22T11:52:34.363Z",
+        "bill_amount": 82940,
+        "bill_paid": true,
+        "created_at": "2023-08-22T21:07:48.579Z",
+        "updated_at": "2023-08-22T09:28:47.608Z",
+        "customer_id": "01a857ba-4508-4b90-89c8-3ec1e5cebe8d",
+        "meter_reading_id": "23b5c14f-c1e7-408b-8677-1da294b23421"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "c3929315-c088-40f3-b9ca-18d7a34adc19",
+        "assignment_date": "2023-08-22T18:58:25.627Z",
+        "created_at": "2023-08-22T06:31:48.584Z",
+        "updated_at": "2023-08-22T10:35:55.164Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "01a857ba-4508-4b90-89c8-3ec1e5cebe8d",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "35f0435c-6b9c-45c8-82a3-1b7295de5c60",
+        "assignment_date": "2023-08-22T23:45:08.034Z",
+        "created_at": "2023-08-22T08:12:07.025Z",
+        "updated_at": "2023-08-22T19:39:42.268Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "db47000e-8090-44fa-992e-26112e815415",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "7132f875-e052-4337-8dc5-d70f48a509fb",
+        "assignment_date": "2023-08-22T16:19:33.176Z",
+        "created_at": "2023-08-22T11:08:45.869Z",
+        "updated_at": "2023-08-22T12:27:52.330Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "f3f2ffa9-ec92-463e-ad9c-271419ed16a3",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "b9cf2fc9-49a1-4ccb-8a1a-52175852fb83",
+        "assignment_date": "2023-08-22T17:41:40.203Z",
+        "created_at": "2023-08-22T11:35:59.414Z",
+        "updated_at": "2023-08-23T03:11:30.274Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "01a857ba-4508-4b90-89c8-3ec1e5cebe8d",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "e84c2abe-8d83-4ff2-85fd-8909d6b457ec",
+        "assignment_date": "2023-08-23T03:20:46.476Z",
+        "created_at": "2023-08-22T23:41:30.341Z",
+        "updated_at": "2023-08-23T04:07:21.429Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "f3f2ffa9-ec92-463e-ad9c-271419ed16a3",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5de1ea91-0e74-4808-9c9a-c996f9fbaef3",
+        "email": "Mac93@yahoo.com",
+        "firstName": "Napoleon",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/328.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e337418-7a29-4e31-bb32-975ccdce218d",
+        "email": "Bo_Gibson@gmail.com",
+        "firstName": "Gennaro",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d81e2ba-1b00-4ced-bc0c-70137eeaf6a9",
+        "email": "Claud.Graham@hotmail.com",
+        "firstName": "Elbert",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61369960",
+        "tenantId": null
+      },
+      {
+        "reference": "e25767e4-deec-4238-8b18-441d12d2b164",
+        "email": "Charles_Daugherty@yahoo.com",
+        "firstName": "D'angelo",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9edf7240-c0cf-48b6-871f-b5233703f3c3",
+        "email": "Vergie93@gmail.com",
+        "firstName": "Sage",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74788362",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "447145d9-615e-4c97-a1e5-3afe24e85358",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T13:01:56.373Z",
+        "updated_at": "2023-08-23T01:41:07.359Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28525827-03c9-4762-82a9-e39da3475270",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T11:12:19.240Z",
+        "updated_at": "2023-08-23T02:31:41.061Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8981d117-8ab6-4bdd-9aa3-994852f07420",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-22T06:05:33.174Z",
+        "updated_at": "2023-08-22T21:42:53.282Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f65b2390-b35b-4d0c-b28f-e46d5dbfc4d4",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T12:29:57.969Z",
+        "updated_at": "2023-08-22T12:28:07.422Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31224c43-5d7b-4234-b683-eec6ab1f32ef",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-08-22T09:06:05.158Z",
+        "updated_at": "2023-08-22T14:53:16.797Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "19a6767a-59b4-4b09-8718-000ffda621c5",
+        "reading_date": "2023-08-23T04:36:08.574Z",
+        "reading_value": 89622,
+        "bill_calculated": false,
+        "bill_amount": 36236,
+        "created_at": "2023-08-22T21:26:24.152Z",
+        "updated_at": "2023-08-22T23:51:02.377Z",
+        "customer_id": "8981d117-8ab6-4bdd-9aa3-994852f07420"
+      },
+      {
+        "id": "6d39f376-0097-483c-be0d-8fe2da6db1ec",
+        "reading_date": "2023-08-22T09:28:47.740Z",
+        "reading_value": 37880,
+        "bill_calculated": false,
+        "bill_amount": 98058,
+        "created_at": "2023-08-23T00:56:06.460Z",
+        "updated_at": "2023-08-22T06:19:39.929Z",
+        "customer_id": "28525827-03c9-4762-82a9-e39da3475270"
+      },
+      {
+        "id": "c3b18567-02c8-4cb8-a883-b90e22221ccb",
+        "reading_date": "2023-08-23T00:18:40.149Z",
+        "reading_value": 28177,
+        "bill_calculated": true,
+        "bill_amount": 4154,
+        "created_at": "2023-08-22T05:47:52.162Z",
+        "updated_at": "2023-08-22T07:33:59.872Z",
+        "customer_id": "31224c43-5d7b-4234-b683-eec6ab1f32ef"
+      },
+      {
+        "id": "d24d2136-a548-477c-9b67-6a34bfed8c8b",
+        "reading_date": "2023-08-22T18:01:30.293Z",
+        "reading_value": 75862,
+        "bill_calculated": true,
+        "bill_amount": 61414,
+        "created_at": "2023-08-23T03:50:27.169Z",
+        "updated_at": "2023-08-22T15:53:43.654Z",
+        "customer_id": "28525827-03c9-4762-82a9-e39da3475270"
+      },
+      {
+        "id": "f4bda335-aa40-47d7-8477-56f7ac91e9f0",
+        "reading_date": "2023-08-22T06:23:21.628Z",
+        "reading_value": 66291,
+        "bill_calculated": true,
+        "bill_amount": 2754,
+        "created_at": "2023-08-22T07:37:27.541Z",
+        "updated_at": "2023-08-23T01:14:31.544Z",
+        "customer_id": "447145d9-615e-4c97-a1e5-3afe24e85358"
+      }
+    ],
+    "bill": [
+      {
+        "id": "b94dbd64-58bd-45ec-ab1d-1b1a44d877e4",
+        "bill_date": "2023-08-23T03:26:32.601Z",
+        "bill_amount": 92544,
+        "bill_paid": true,
+        "created_at": "2023-08-22T06:49:39.636Z",
+        "updated_at": "2023-08-22T10:27:34.314Z",
+        "customer_id": "28525827-03c9-4762-82a9-e39da3475270",
+        "meter_reading_id": "d24d2136-a548-477c-9b67-6a34bfed8c8b"
+      },
+      {
+        "id": "31a09bce-0a60-49e4-a1fa-2f8dddffaa24",
+        "bill_date": "2023-08-22T23:35:04.125Z",
+        "bill_amount": 27234,
+        "bill_paid": true,
+        "created_at": "2023-08-22T05:20:43.132Z",
+        "updated_at": "2023-08-22T13:51:43.903Z",
+        "customer_id": "31224c43-5d7b-4234-b683-eec6ab1f32ef",
+        "meter_reading_id": "f4bda335-aa40-47d7-8477-56f7ac91e9f0"
+      },
+      {
+        "id": "5cce5fd3-22dd-416d-af96-affdc8b38f90",
+        "bill_date": "2023-08-22T16:25:10.132Z",
+        "bill_amount": 60823,
+        "bill_paid": true,
+        "created_at": "2023-08-22T13:58:27.565Z",
+        "updated_at": "2023-08-22T15:24:19.001Z",
+        "customer_id": "f65b2390-b35b-4d0c-b28f-e46d5dbfc4d4",
+        "meter_reading_id": "d24d2136-a548-477c-9b67-6a34bfed8c8b"
+      },
+      {
+        "id": "6b5b91ed-b63e-4abd-afd1-9c6f371861e4",
+        "bill_date": "2023-08-22T14:15:42.786Z",
+        "bill_amount": 33709,
+        "bill_paid": true,
+        "created_at": "2023-08-22T06:01:09.052Z",
+        "updated_at": "2023-08-22T09:01:16.116Z",
+        "customer_id": "447145d9-615e-4c97-a1e5-3afe24e85358",
+        "meter_reading_id": "19a6767a-59b4-4b09-8718-000ffda621c5"
+      },
+      {
+        "id": "52539756-5bab-4951-9927-beecf48ba5c7",
+        "bill_date": "2023-08-22T07:31:23.522Z",
+        "bill_amount": 60948,
+        "bill_paid": true,
+        "created_at": "2023-08-22T20:52:24.434Z",
+        "updated_at": "2023-08-22T08:09:26.767Z",
+        "customer_id": "447145d9-615e-4c97-a1e5-3afe24e85358",
+        "meter_reading_id": "19a6767a-59b4-4b09-8718-000ffda621c5"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "58d15212-d2e1-4835-a05b-66717c7659c6",
+        "assignment_date": "2023-08-22T14:45:38.011Z",
+        "created_at": "2023-08-22T09:30:08.331Z",
+        "updated_at": "2023-08-22T22:55:26.464Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "28525827-03c9-4762-82a9-e39da3475270",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "276fe486-cadb-4168-bad0-2ccdffcff01a",
+        "assignment_date": "2023-08-23T02:01:46.602Z",
+        "created_at": "2023-08-22T22:37:02.341Z",
+        "updated_at": "2023-08-22T19:49:58.205Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "28525827-03c9-4762-82a9-e39da3475270",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "da82b9e9-2966-4069-b695-30c6997aca47",
+        "assignment_date": "2023-08-22T07:26:24.508Z",
+        "created_at": "2023-08-22T21:51:19.482Z",
+        "updated_at": "2023-08-22T06:08:07.254Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "447145d9-615e-4c97-a1e5-3afe24e85358",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "d5b3ecaa-0d22-4986-ae5f-a70918b3b82c",
+        "assignment_date": "2023-08-23T01:32:04.066Z",
+        "created_at": "2023-08-22T08:14:38.019Z",
+        "updated_at": "2023-08-22T06:29:29.735Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "f65b2390-b35b-4d0c-b28f-e46d5dbfc4d4",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "5cd5f17c-fec9-4508-b3f4-acd96f94b11a",
+        "assignment_date": "2023-08-22T13:37:29.670Z",
+        "created_at": "2023-08-23T02:45:47.932Z",
+        "updated_at": "2023-08-22T05:07:20.723Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "f65b2390-b35b-4d0c-b28f-e46d5dbfc4d4",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f8948295-ab8f-4afd-aac1-dd41f8bf6910",
+        "email": "Creola.Schneider59@yahoo.com",
+        "firstName": "Lacy",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41553086",
+        "tenantId": null
+      },
+      {
+        "reference": "6b15ecd5-e3d9-46a0-846c-09c7b93636a1",
+        "email": "Wava.Haag4@gmail.com",
+        "firstName": "Justina",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55474481",
+        "tenantId": null
+      },
+      {
+        "reference": "6e79cd46-b324-47d5-baed-2c0699121258",
+        "email": "Loren6@gmail.com",
+        "firstName": "Alivia",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "841d0dda-f3df-43ff-aa99-bc2933ac6952",
+        "email": "Wanda80@yahoo.com",
+        "firstName": "Alexis",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/45.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb86de64-a1a0-4861-a273-6653bb863816",
+        "email": "Nasir_Rowe58@gmail.com",
+        "firstName": "Crystel",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "5ea228e0-1226-4dda-8afa-3fd21ce57fd4",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T06:18:36.233Z",
+        "updated_at": "2023-08-22T05:35:54.488Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3055bcaf-9d5f-4eb2-b319-41331cbcc268",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T08:43:27.223Z",
+        "updated_at": "2023-08-22T15:12:05.440Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72ba4608-7fee-4415-9cd5-398df898239d",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-23T04:12:45.200Z",
+        "updated_at": "2023-08-23T02:46:07.961Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0324387d-67ea-4cd2-a382-edf51481f6d9",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T18:29:59.955Z",
+        "updated_at": "2023-08-22T20:30:56.863Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56b847fe-1a33-4f69-aca4-c313918bb81e",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T21:34:21.316Z",
+        "updated_at": "2023-08-22T15:35:23.745Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "e408366b-59f4-459e-a417-a3b06169b676",
+        "reading_date": "2023-08-22T15:04:46.628Z",
+        "reading_value": 9331,
+        "bill_calculated": false,
+        "bill_amount": 26130,
+        "created_at": "2023-08-22T14:37:32.843Z",
+        "updated_at": "2023-08-22T13:30:14.527Z",
+        "customer_id": "72ba4608-7fee-4415-9cd5-398df898239d"
+      },
+      {
+        "id": "17077981-1762-4df5-8053-e37d24575905",
+        "reading_date": "2023-08-22T12:37:18.207Z",
+        "reading_value": 93699,
+        "bill_calculated": false,
+        "bill_amount": 44120,
+        "created_at": "2023-08-22T19:53:41.766Z",
+        "updated_at": "2023-08-22T16:38:44.884Z",
+        "customer_id": "72ba4608-7fee-4415-9cd5-398df898239d"
+      },
+      {
+        "id": "1ae23616-cc1a-4a43-86a8-e122526495e3",
+        "reading_date": "2023-08-22T10:22:40.060Z",
+        "reading_value": 66996,
+        "bill_calculated": true,
+        "bill_amount": 73611,
+        "created_at": "2023-08-23T02:57:32.735Z",
+        "updated_at": "2023-08-22T08:03:38.767Z",
+        "customer_id": "3055bcaf-9d5f-4eb2-b319-41331cbcc268"
+      },
+      {
+        "id": "e165d24c-82fa-409c-ab69-559c84783717",
+        "reading_date": "2023-08-22T08:59:54.917Z",
+        "reading_value": 4225,
+        "bill_calculated": false,
+        "bill_amount": 99412,
+        "created_at": "2023-08-23T03:24:39.341Z",
+        "updated_at": "2023-08-23T03:23:27.299Z",
+        "customer_id": "0324387d-67ea-4cd2-a382-edf51481f6d9"
+      },
+      {
+        "id": "a2b98a0f-4bf5-4ee7-8a91-34b17d8c1dd0",
+        "reading_date": "2023-08-22T05:16:00.123Z",
+        "reading_value": 55370,
+        "bill_calculated": true,
+        "bill_amount": 49668,
+        "created_at": "2023-08-22T07:26:36.920Z",
+        "updated_at": "2023-08-22T05:52:30.334Z",
+        "customer_id": "72ba4608-7fee-4415-9cd5-398df898239d"
+      }
+    ],
+    "bill": [
+      {
+        "id": "e101a57c-5956-4774-a67a-39ad107aba4a",
+        "bill_date": "2023-08-22T19:27:42.268Z",
+        "bill_amount": 26960,
+        "bill_paid": false,
+        "created_at": "2023-08-22T14:27:31.119Z",
+        "updated_at": "2023-08-23T03:50:55.809Z",
+        "customer_id": "0324387d-67ea-4cd2-a382-edf51481f6d9",
+        "meter_reading_id": "e408366b-59f4-459e-a417-a3b06169b676"
+      },
+      {
+        "id": "6db85c8c-8d39-4f86-b08f-5eecad16e4b6",
+        "bill_date": "2023-08-22T11:18:34.971Z",
+        "bill_amount": 449,
+        "bill_paid": true,
+        "created_at": "2023-08-22T18:13:08.891Z",
+        "updated_at": "2023-08-22T14:47:23.289Z",
+        "customer_id": "3055bcaf-9d5f-4eb2-b319-41331cbcc268",
+        "meter_reading_id": "e165d24c-82fa-409c-ab69-559c84783717"
+      },
+      {
+        "id": "eb18779a-0e7c-4798-b9cd-0b60f3de87dd",
+        "bill_date": "2023-08-22T04:58:10.652Z",
+        "bill_amount": 31178,
+        "bill_paid": false,
+        "created_at": "2023-08-22T12:05:21.035Z",
+        "updated_at": "2023-08-22T05:42:17.044Z",
+        "customer_id": "5ea228e0-1226-4dda-8afa-3fd21ce57fd4",
+        "meter_reading_id": "17077981-1762-4df5-8053-e37d24575905"
+      },
+      {
+        "id": "d0e0ff07-03c1-471a-96ed-a46093cb7a4b",
+        "bill_date": "2023-08-22T15:41:43.132Z",
+        "bill_amount": 20723,
+        "bill_paid": true,
+        "created_at": "2023-08-22T06:35:34.840Z",
+        "updated_at": "2023-08-22T15:49:05.510Z",
+        "customer_id": "56b847fe-1a33-4f69-aca4-c313918bb81e",
+        "meter_reading_id": "e408366b-59f4-459e-a417-a3b06169b676"
+      },
+      {
+        "id": "8a65f2db-8277-4a98-b106-a16d093dea72",
+        "bill_date": "2023-08-22T08:58:54.483Z",
+        "bill_amount": 8124,
+        "bill_paid": false,
+        "created_at": "2023-08-22T08:57:42.452Z",
+        "updated_at": "2023-08-22T18:07:00.591Z",
+        "customer_id": "56b847fe-1a33-4f69-aca4-c313918bb81e",
+        "meter_reading_id": "17077981-1762-4df5-8053-e37d24575905"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "4ff1195b-c972-412d-9b56-d0bb4ce70aec",
+        "assignment_date": "2023-08-22T18:10:33.085Z",
+        "created_at": "2023-08-22T07:57:35.393Z",
+        "updated_at": "2023-08-22T05:53:15.026Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "3055bcaf-9d5f-4eb2-b319-41331cbcc268",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "2ffaf964-80a0-4040-a5a1-3c83db5e5334",
+        "assignment_date": "2023-08-22T10:34:48.920Z",
+        "created_at": "2023-08-22T21:40:50.226Z",
+        "updated_at": "2023-08-22T21:00:03.760Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "0324387d-67ea-4cd2-a382-edf51481f6d9",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "c7f8fc45-5e28-420e-a40e-79d2592ef444",
+        "assignment_date": "2023-08-22T17:36:44.110Z",
+        "created_at": "2023-08-23T02:13:24.444Z",
+        "updated_at": "2023-08-23T01:12:51.855Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "56b847fe-1a33-4f69-aca4-c313918bb81e",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "9cfd3ffe-70e1-46d1-8e88-7681e7f6b9ff",
+        "assignment_date": "2023-08-22T09:33:40.686Z",
+        "created_at": "2023-08-22T20:15:06.271Z",
+        "updated_at": "2023-08-23T01:43:22.393Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "3055bcaf-9d5f-4eb2-b319-41331cbcc268",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "63b78b2d-09fd-4b26-907f-31c14f3c3e2c",
+        "assignment_date": "2023-08-22T08:46:45.965Z",
+        "created_at": "2023-08-22T13:22:12.344Z",
+        "updated_at": "2023-08-22T06:30:04.327Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "5ea228e0-1226-4dda-8afa-3fd21ce57fd4",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ce5b6ba-f9d8-4ed1-a110-bd9bbc0221c6",
+        "email": "Izaiah_Lesch8@gmail.com",
+        "firstName": "Jonatan",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/270.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "91000081-2970-4773-aac2-ad5e19d35621",
+        "email": "Ethyl6@yahoo.com",
+        "firstName": "Ena",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58983444-84ba-449b-9451-cafa23dd0324",
+        "email": "Narciso24@hotmail.com",
+        "firstName": "Jasper",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9985537",
+        "tenantId": null
+      },
+      {
+        "reference": "368b8007-440b-4f71-b007-6f6cce8167a4",
+        "email": "Xavier.Parker58@hotmail.com",
+        "firstName": "Cynthia",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1165.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "73792183-cb70-4dc8-8785-8519c9da9e3b",
+        "email": "Aric2@hotmail.com",
+        "firstName": "Odessa",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11433786",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "9a49a575-26bb-4f7f-bbf8-4421a42e2be9",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T17:31:09.531Z",
+        "updated_at": "2023-08-22T07:28:43.202Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a65435f-1cc3-4982-b9b1-1b637544d76b",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T16:59:42.564Z",
+        "updated_at": "2023-08-22T19:17:21.187Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86ffb764-b3c6-4870-bc44-998361f15e3c",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-22T08:21:59.282Z",
+        "updated_at": "2023-08-22T21:53:07.216Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7355f4d9-ef1d-4aac-a7f7-b2933980a642",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T22:17:36.521Z",
+        "updated_at": "2023-08-22T16:57:23.080Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dabc9fb2-0f31-483d-acea-43ca4f983f91",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T16:23:51.943Z",
+        "updated_at": "2023-08-22T07:59:08.341Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "2ab8a216-093e-45fd-92a3-53ca3a4babc9",
+        "reading_date": "2023-08-22T14:13:31.243Z",
+        "reading_value": 18846,
+        "bill_calculated": false,
+        "bill_amount": 53424,
+        "created_at": "2023-08-22T09:03:27.669Z",
+        "updated_at": "2023-08-22T19:11:39.247Z",
+        "customer_id": "7355f4d9-ef1d-4aac-a7f7-b2933980a642"
+      },
+      {
+        "id": "0dcbe13c-2541-4e8c-866e-20de19758d26",
+        "reading_date": "2023-08-22T15:36:20.868Z",
+        "reading_value": 16363,
+        "bill_calculated": false,
+        "bill_amount": 67178,
+        "created_at": "2023-08-22T06:45:42.256Z",
+        "updated_at": "2023-08-22T05:25:09.965Z",
+        "customer_id": "9a49a575-26bb-4f7f-bbf8-4421a42e2be9"
+      },
+      {
+        "id": "8bc1e2f3-4722-44db-bb79-af0b35667ac2",
+        "reading_date": "2023-08-22T12:43:25.151Z",
+        "reading_value": 10068,
+        "bill_calculated": true,
+        "bill_amount": 8563,
+        "created_at": "2023-08-22T08:55:13.065Z",
+        "updated_at": "2023-08-22T14:49:01.835Z",
+        "customer_id": "4a65435f-1cc3-4982-b9b1-1b637544d76b"
+      },
+      {
+        "id": "9446d703-9be7-41d7-a5a9-ffa67d8ed428",
+        "reading_date": "2023-08-22T12:18:23.665Z",
+        "reading_value": 47016,
+        "bill_calculated": false,
+        "bill_amount": 28472,
+        "created_at": "2023-08-22T11:14:14.551Z",
+        "updated_at": "2023-08-22T09:14:28.012Z",
+        "customer_id": "7355f4d9-ef1d-4aac-a7f7-b2933980a642"
+      },
+      {
+        "id": "0f76a88a-0404-417a-b83e-12c2ff772bca",
+        "reading_date": "2023-08-23T03:51:09.949Z",
+        "reading_value": 77692,
+        "bill_calculated": false,
+        "bill_amount": 45700,
+        "created_at": "2023-08-22T06:30:58.759Z",
+        "updated_at": "2023-08-22T23:03:03.338Z",
+        "customer_id": "4a65435f-1cc3-4982-b9b1-1b637544d76b"
+      }
+    ],
+    "bill": [
+      {
+        "id": "8112ba1b-2e7e-4fd6-8d1a-4393fb716a5d",
+        "bill_date": "2023-08-22T16:52:15.327Z",
+        "bill_amount": 90695,
+        "bill_paid": true,
+        "created_at": "2023-08-22T10:58:39.561Z",
+        "updated_at": "2023-08-22T05:50:15.405Z",
+        "customer_id": "dabc9fb2-0f31-483d-acea-43ca4f983f91",
+        "meter_reading_id": "0f76a88a-0404-417a-b83e-12c2ff772bca"
+      },
+      {
+        "id": "6aae8fe1-1a59-413c-815f-99db1b995ddd",
+        "bill_date": "2023-08-22T18:23:57.473Z",
+        "bill_amount": 24450,
+        "bill_paid": false,
+        "created_at": "2023-08-23T00:03:41.717Z",
+        "updated_at": "2023-08-23T04:39:28.001Z",
+        "customer_id": "9a49a575-26bb-4f7f-bbf8-4421a42e2be9",
+        "meter_reading_id": "0f76a88a-0404-417a-b83e-12c2ff772bca"
+      },
+      {
+        "id": "910fab02-cc8e-4543-8006-91ae582cdd3c",
+        "bill_date": "2023-08-22T14:51:10.327Z",
+        "bill_amount": 74007,
+        "bill_paid": false,
+        "created_at": "2023-08-22T21:47:49.364Z",
+        "updated_at": "2023-08-22T05:06:02.193Z",
+        "customer_id": "dabc9fb2-0f31-483d-acea-43ca4f983f91",
+        "meter_reading_id": "2ab8a216-093e-45fd-92a3-53ca3a4babc9"
+      },
+      {
+        "id": "1ae645d7-2b18-482e-938f-8ca901af3c23",
+        "bill_date": "2023-08-22T20:35:30.042Z",
+        "bill_amount": 73213,
+        "bill_paid": false,
+        "created_at": "2023-08-22T18:22:32.732Z",
+        "updated_at": "2023-08-22T22:42:50.216Z",
+        "customer_id": "86ffb764-b3c6-4870-bc44-998361f15e3c",
+        "meter_reading_id": "0f76a88a-0404-417a-b83e-12c2ff772bca"
+      },
+      {
+        "id": "44fc11b5-12dd-4b6b-86d1-a2ea5cc6b328",
+        "bill_date": "2023-08-22T15:30:20.863Z",
+        "bill_amount": 48589,
+        "bill_paid": false,
+        "created_at": "2023-08-22T15:22:58.179Z",
+        "updated_at": "2023-08-23T00:14:28.974Z",
+        "customer_id": "dabc9fb2-0f31-483d-acea-43ca4f983f91",
+        "meter_reading_id": "0dcbe13c-2541-4e8c-866e-20de19758d26"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "9c316946-c37a-4eab-bbd4-fba65b3d9e65",
+        "assignment_date": "2023-08-22T20:47:37.507Z",
+        "created_at": "2023-08-22T10:53:46.870Z",
+        "updated_at": "2023-08-22T14:35:10.410Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "9a49a575-26bb-4f7f-bbf8-4421a42e2be9",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "e15f9701-ec48-4151-81b8-1c6092db93a2",
+        "assignment_date": "2023-08-23T04:39:26.220Z",
+        "created_at": "2023-08-23T02:38:39.852Z",
+        "updated_at": "2023-08-22T09:02:24.406Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "86ffb764-b3c6-4870-bc44-998361f15e3c",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "06fa79bc-2472-4b81-bfc5-9d8ed4745a96",
+        "assignment_date": "2023-08-22T18:40:08.719Z",
+        "created_at": "2023-08-23T03:53:53.367Z",
+        "updated_at": "2023-08-22T13:02:49.473Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "7355f4d9-ef1d-4aac-a7f7-b2933980a642",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "e1b546eb-ed9b-4b48-be28-70a82dd2e893",
+        "assignment_date": "2023-08-22T07:05:02.483Z",
+        "created_at": "2023-08-22T23:16:45.283Z",
+        "updated_at": "2023-08-22T19:27:51.079Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "4a65435f-1cc3-4982-b9b1-1b637544d76b",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "db31679f-8521-4574-aa69-89f2eb564092",
+        "assignment_date": "2023-08-22T22:47:49.285Z",
+        "created_at": "2023-08-22T09:35:31.575Z",
+        "updated_at": "2023-08-22T14:07:19.651Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "86ffb764-b3c6-4870-bc44-998361f15e3c",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "21d41518-f58e-4ba9-b25b-60e81484dfaf",
+        "email": "Ayla_Kirlin@hotmail.com",
+        "firstName": "Jalon",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75140722",
+        "tenantId": null
+      },
+      {
+        "reference": "e0e281c5-fe00-4b6a-af8d-139af526ed1f",
+        "email": "Horace_Spinka@hotmail.com",
+        "firstName": "Keara",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46862442",
+        "tenantId": null
+      },
+      {
+        "reference": "f756549d-9985-4a04-9eb7-b11ebf6f4699",
+        "email": "Iva_McClure43@gmail.com",
+        "firstName": "Catalina",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/510.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f8d69ce6-ccbe-48e2-98ca-b7f16976a2bf",
+        "email": "Elmore.Morissette@hotmail.com",
+        "firstName": "Madelyn",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62926024",
+        "tenantId": null
+      },
+      {
+        "reference": "0bc7f012-421c-431e-9005-2463821d2da3",
+        "email": "Isaac46@yahoo.com",
+        "firstName": "Louvenia",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97979177",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "11ee8ebe-d6d3-4efe-8e01-544debd5cf1d",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-23T03:44:33.589Z",
+        "updated_at": "2023-08-22T16:21:28.415Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20e04d2f-8714-41fd-b409-c553bb71fa40",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T18:33:50.904Z",
+        "updated_at": "2023-08-22T22:02:16.090Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbfa52d4-e720-4938-902e-39d905fa2071",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-22T08:09:14.770Z",
+        "updated_at": "2023-08-22T19:43:59.867Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69ed37cf-3a76-4718-bfd4-c9006afa177e",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T05:02:03.183Z",
+        "updated_at": "2023-08-22T23:02:29.494Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce64e2a2-e5b9-45dc-8317-b10868bf9645",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T21:31:32.442Z",
+        "updated_at": "2023-08-22T10:04:24.282Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "6e1d5604-5747-4a4d-8f3a-6db92480ee37",
+        "reading_date": "2023-08-23T04:37:22.371Z",
+        "reading_value": 78151,
+        "bill_calculated": false,
+        "bill_amount": 46821,
+        "created_at": "2023-08-22T07:12:01.384Z",
+        "updated_at": "2023-08-23T01:12:53.425Z",
+        "customer_id": "69ed37cf-3a76-4718-bfd4-c9006afa177e"
+      },
+      {
+        "id": "030a6024-da69-4f8a-98e6-23b30126cc75",
+        "reading_date": "2023-08-23T00:16:38.923Z",
+        "reading_value": 20490,
+        "bill_calculated": false,
+        "bill_amount": 92640,
+        "created_at": "2023-08-23T02:27:52.343Z",
+        "updated_at": "2023-08-22T06:48:21.995Z",
+        "customer_id": "ce64e2a2-e5b9-45dc-8317-b10868bf9645"
+      },
+      {
+        "id": "49981c83-5328-408c-821f-988af05072c2",
+        "reading_date": "2023-08-23T01:11:16.085Z",
+        "reading_value": 33186,
+        "bill_calculated": false,
+        "bill_amount": 23745,
+        "created_at": "2023-08-22T16:07:30.921Z",
+        "updated_at": "2023-08-22T19:09:38.408Z",
+        "customer_id": "69ed37cf-3a76-4718-bfd4-c9006afa177e"
+      },
+      {
+        "id": "dc106a37-6f52-4ef8-bf56-e860af7a2700",
+        "reading_date": "2023-08-23T01:19:51.931Z",
+        "reading_value": 25988,
+        "bill_calculated": true,
+        "bill_amount": 8457,
+        "created_at": "2023-08-22T06:52:17.602Z",
+        "updated_at": "2023-08-22T09:26:28.277Z",
+        "customer_id": "ce64e2a2-e5b9-45dc-8317-b10868bf9645"
+      },
+      {
+        "id": "b251fc26-0b4b-4e9b-8a72-adb9cf6e170f",
+        "reading_date": "2023-08-22T05:22:52.123Z",
+        "reading_value": 19979,
+        "bill_calculated": false,
+        "bill_amount": 69270,
+        "created_at": "2023-08-22T18:56:20.755Z",
+        "updated_at": "2023-08-22T19:26:03.702Z",
+        "customer_id": "20e04d2f-8714-41fd-b409-c553bb71fa40"
+      }
+    ],
+    "bill": [
+      {
+        "id": "539e9bb0-5f61-40d9-a6ff-d5545bb6d9b7",
+        "bill_date": "2023-08-22T10:28:53.832Z",
+        "bill_amount": 41701,
+        "bill_paid": false,
+        "created_at": "2023-08-22T05:25:06.732Z",
+        "updated_at": "2023-08-22T16:31:59.026Z",
+        "customer_id": "ce64e2a2-e5b9-45dc-8317-b10868bf9645",
+        "meter_reading_id": "030a6024-da69-4f8a-98e6-23b30126cc75"
+      },
+      {
+        "id": "deef1dfe-c605-4e24-99e1-7ca4c93d59ff",
+        "bill_date": "2023-08-22T13:04:56.232Z",
+        "bill_amount": 7232,
+        "bill_paid": true,
+        "created_at": "2023-08-23T01:29:55.121Z",
+        "updated_at": "2023-08-22T07:49:48.056Z",
+        "customer_id": "ce64e2a2-e5b9-45dc-8317-b10868bf9645",
+        "meter_reading_id": "b251fc26-0b4b-4e9b-8a72-adb9cf6e170f"
+      },
+      {
+        "id": "fe031379-a2e7-4606-a49c-f07df71e05a8",
+        "bill_date": "2023-08-22T15:08:15.302Z",
+        "bill_amount": 45109,
+        "bill_paid": true,
+        "created_at": "2023-08-22T19:00:05.067Z",
+        "updated_at": "2023-08-22T07:01:20.414Z",
+        "customer_id": "69ed37cf-3a76-4718-bfd4-c9006afa177e",
+        "meter_reading_id": "030a6024-da69-4f8a-98e6-23b30126cc75"
+      },
+      {
+        "id": "33564ad8-e7ae-49a3-ad3e-d5e3d8e2c11f",
+        "bill_date": "2023-08-22T05:33:13.469Z",
+        "bill_amount": 48818,
+        "bill_paid": true,
+        "created_at": "2023-08-22T11:01:59.227Z",
+        "updated_at": "2023-08-22T10:36:50.859Z",
+        "customer_id": "fbfa52d4-e720-4938-902e-39d905fa2071",
+        "meter_reading_id": "6e1d5604-5747-4a4d-8f3a-6db92480ee37"
+      },
+      {
+        "id": "feacbefa-ef0c-40cd-9f8e-466d50553201",
+        "bill_date": "2023-08-22T11:00:06.097Z",
+        "bill_amount": 39647,
+        "bill_paid": true,
+        "created_at": "2023-08-22T08:06:53.648Z",
+        "updated_at": "2023-08-22T19:46:02.016Z",
+        "customer_id": "69ed37cf-3a76-4718-bfd4-c9006afa177e",
+        "meter_reading_id": "6e1d5604-5747-4a4d-8f3a-6db92480ee37"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "c75673be-c556-4eb8-a778-cfe0e9d60f80",
+        "assignment_date": "2023-08-23T04:22:44.384Z",
+        "created_at": "2023-08-22T21:46:44.455Z",
+        "updated_at": "2023-08-22T19:35:44.948Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "69ed37cf-3a76-4718-bfd4-c9006afa177e",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "92ba325c-0397-406b-ad6d-1b26bbf22db7",
+        "assignment_date": "2023-08-22T16:09:15.326Z",
+        "created_at": "2023-08-22T16:42:08.725Z",
+        "updated_at": "2023-08-22T23:31:05.186Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "69ed37cf-3a76-4718-bfd4-c9006afa177e",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "d00e9072-5e70-4d92-9c37-e527d7d9f35d",
+        "assignment_date": "2023-08-22T07:40:04.365Z",
+        "created_at": "2023-08-22T14:06:34.234Z",
+        "updated_at": "2023-08-22T09:10:19.652Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "ce64e2a2-e5b9-45dc-8317-b10868bf9645",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "e703c062-bb15-408c-a8aa-a86279d30c1e",
+        "assignment_date": "2023-08-22T06:27:27.460Z",
+        "created_at": "2023-08-23T04:43:12.480Z",
+        "updated_at": "2023-08-23T00:52:27.157Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "fbfa52d4-e720-4938-902e-39d905fa2071",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "6b8d4b4c-1659-4a52-9e5f-e838057e3a84",
+        "assignment_date": "2023-08-22T15:32:32.889Z",
+        "created_at": "2023-08-23T02:21:35.885Z",
+        "updated_at": "2023-08-22T23:08:20.937Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "11ee8ebe-d6d3-4efe-8e01-544debd5cf1d",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "810d65a3-02e7-4993-92a1-89b703f0d332",
+        "email": "Darrell47@gmail.com",
+        "firstName": "Enola",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35853252",
+        "tenantId": null
+      },
+      {
+        "reference": "46098f03-a520-408a-9b7e-1e9369ad859d",
+        "email": "Shanon9@gmail.com",
+        "firstName": "Wilfredo",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1184.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a350a2f6-bfa3-4a3a-8928-a15f7dce4688",
+        "email": "Eulalia17@gmail.com",
+        "firstName": "Cierra",
+        "lastName": "Beer-Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35450294",
+        "tenantId": null
+      },
+      {
+        "reference": "91fb89f3-ec65-4e83-800a-034529396932",
+        "email": "Loraine_Halvorson21@yahoo.com",
+        "firstName": "Deja",
+        "lastName": "Collins-Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71768296",
+        "tenantId": null
+      },
+      {
+        "reference": "e09b10c1-cdbb-4bc2-aec6-322dd82183b6",
+        "email": "Nigel4@gmail.com",
+        "firstName": "Teagan",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/851.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "9273aab8-df26-4552-83a8-bef12c3e45f3",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-22T13:19:53.390Z",
+        "updated_at": "2023-08-22T22:28:29.428Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b5813c6-1ea6-4aa5-b329-2c70ba962094",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-22T05:08:14.273Z",
+        "updated_at": "2023-08-22T09:01:15.690Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40130528-6cef-4747-af3a-712e214bc0bc",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-23T01:02:42.247Z",
+        "updated_at": "2023-08-22T06:06:19.373Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-22T09:19:08.383Z",
+        "updated_at": "2023-08-22T08:06:49.371Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acca413e-fa6a-4940-9121-cf1b83c18dea",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-22T23:15:46.066Z",
+        "updated_at": "2023-08-22T19:44:16.054Z",
+        "account_manager_id": "user_entity_pk",
+        "meter_reader_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meter_reading": [
+      {
+        "id": "0f27d560-9862-4d19-a122-74d796402c58",
+        "reading_date": "2023-08-22T09:35:13.570Z",
+        "reading_value": 36825,
+        "bill_calculated": false,
+        "bill_amount": 33620,
+        "created_at": "2023-08-22T17:45:59.667Z",
+        "updated_at": "2023-08-22T05:07:35.444Z",
+        "customer_id": "9273aab8-df26-4552-83a8-bef12c3e45f3"
+      },
+      {
+        "id": "f34e18aa-cd9f-4a10-88f5-375d56b8ee56",
+        "reading_date": "2023-08-22T11:26:43.957Z",
+        "reading_value": 23067,
+        "bill_calculated": true,
+        "bill_amount": 76417,
+        "created_at": "2023-08-22T09:19:49.447Z",
+        "updated_at": "2023-08-22T06:17:12.675Z",
+        "customer_id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c"
+      },
+      {
+        "id": "0b1ad7b3-82d8-4960-8754-6a2969025abe",
+        "reading_date": "2023-08-23T01:15:20.593Z",
+        "reading_value": 37849,
+        "bill_calculated": true,
+        "bill_amount": 82747,
+        "created_at": "2023-08-22T19:54:05.251Z",
+        "updated_at": "2023-08-22T16:23:37.272Z",
+        "customer_id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c"
+      },
+      {
+        "id": "677f14ac-6dc6-4dc0-99d7-8a8a8c1da932",
+        "reading_date": "2023-08-22T08:21:35.324Z",
+        "reading_value": 53481,
+        "bill_calculated": true,
+        "bill_amount": 82565,
+        "created_at": "2023-08-23T03:15:24.364Z",
+        "updated_at": "2023-08-23T02:55:18.399Z",
+        "customer_id": "40130528-6cef-4747-af3a-712e214bc0bc"
+      },
+      {
+        "id": "606a741c-5ad4-4275-88b0-d9b9901fc08c",
+        "reading_date": "2023-08-22T05:13:09.032Z",
+        "reading_value": 14442,
+        "bill_calculated": false,
+        "bill_amount": 26709,
+        "created_at": "2023-08-22T17:14:05.458Z",
+        "updated_at": "2023-08-22T14:23:39.044Z",
+        "customer_id": "40130528-6cef-4747-af3a-712e214bc0bc"
+      }
+    ],
+    "bill": [
+      {
+        "id": "f55c0c2b-2a21-4a96-9c88-6b8ac6a7b301",
+        "bill_date": "2023-08-22T09:34:44.869Z",
+        "bill_amount": 60827,
+        "bill_paid": false,
+        "created_at": "2023-08-22T18:31:35.368Z",
+        "updated_at": "2023-08-22T19:52:39.771Z",
+        "customer_id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c",
+        "meter_reading_id": "f34e18aa-cd9f-4a10-88f5-375d56b8ee56"
+      },
+      {
+        "id": "a07f7ec4-bd13-47c4-bf8b-1ff0327736c9",
+        "bill_date": "2023-08-23T04:14:09.606Z",
+        "bill_amount": 10670,
+        "bill_paid": true,
+        "created_at": "2023-08-22T18:18:33.478Z",
+        "updated_at": "2023-08-22T20:05:05.330Z",
+        "customer_id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c",
+        "meter_reading_id": "f34e18aa-cd9f-4a10-88f5-375d56b8ee56"
+      },
+      {
+        "id": "d42afee3-b9f3-4cd8-b3f0-ded771989cb0",
+        "bill_date": "2023-08-22T08:45:38.492Z",
+        "bill_amount": 20725,
+        "bill_paid": false,
+        "created_at": "2023-08-23T01:49:39.784Z",
+        "updated_at": "2023-08-22T14:36:43.726Z",
+        "customer_id": "5b5813c6-1ea6-4aa5-b329-2c70ba962094",
+        "meter_reading_id": "606a741c-5ad4-4275-88b0-d9b9901fc08c"
+      },
+      {
+        "id": "ec5ea0e3-079e-49f2-8da9-ff8ef9f2cf5a",
+        "bill_date": "2023-08-22T15:28:19.078Z",
+        "bill_amount": 64703,
+        "bill_paid": false,
+        "created_at": "2023-08-22T13:54:07.680Z",
+        "updated_at": "2023-08-22T08:55:00.055Z",
+        "customer_id": "5b5813c6-1ea6-4aa5-b329-2c70ba962094",
+        "meter_reading_id": "606a741c-5ad4-4275-88b0-d9b9901fc08c"
+      },
+      {
+        "id": "22409b9b-a850-4fcd-9e00-92612d496628",
+        "bill_date": "2023-08-22T18:12:54.999Z",
+        "bill_amount": 48459,
+        "bill_paid": false,
+        "created_at": "2023-08-22T09:17:05.713Z",
+        "updated_at": "2023-08-22T20:51:07.650Z",
+        "customer_id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c",
+        "meter_reading_id": "606a741c-5ad4-4275-88b0-d9b9901fc08c"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "5e31e070-0976-4065-bb4f-abee9d0dd277",
+        "assignment_date": "2023-08-22T17:49:27.051Z",
+        "created_at": "2023-08-23T04:24:26.244Z",
+        "updated_at": "2023-08-22T16:58:16.890Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "5b5813c6-1ea6-4aa5-b329-2c70ba962094",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "7d8d93ec-5fed-4b20-b85e-7db9fed304ed",
+        "assignment_date": "2023-08-22T19:16:30.278Z",
+        "created_at": "2023-08-22T21:20:14.590Z",
+        "updated_at": "2023-08-22T17:05:53.692Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "acca413e-fa6a-4940-9121-cf1b83c18dea",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "917f096b-f620-4449-b791-f33fb09bbd2b",
+        "assignment_date": "2023-08-22T20:05:48.751Z",
+        "created_at": "2023-08-22T22:44:51.372Z",
+        "updated_at": "2023-08-22T21:14:33.011Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "5b5813c6-1ea6-4aa5-b329-2c70ba962094",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "97763308-9493-46cd-bc61-eb733292cdc2",
+        "assignment_date": "2023-08-22T08:25:02.533Z",
+        "created_at": "2023-08-22T08:54:26.833Z",
+        "updated_at": "2023-08-22T14:35:45.440Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c",
+        "meter_reader_id": "user_entity_pk"
+      },
+      {
+        "id": "326ec6d1-e20a-4deb-ac86-e336e0001533",
+        "assignment_date": "2023-08-22T11:00:27.509Z",
+        "created_at": "2023-08-22T23:44:24.277Z",
+        "updated_at": "2023-08-22T19:42:38.243Z",
+        "account_manager_id": "user_entity_pk",
+        "customer_id": "a6ca2f7e-a834-455c-80e3-3c53ad65669c",
+        "meter_reader_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2cc5416f-04b2-4165-8238-bae9424cb470",
+        "email": "Louisa_Bogisich@hotmail.com",
+        "firstName": "Carlo",
+        "lastName": "Adams-Rempel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29449106",
+        "tenantId": null
+      },
+      {
+        "reference": "37c67c29-e67d-47a2-b595-9206cf47c678",
+        "email": "Chet_Champlin10@hotmail.com",
+        "firstName": "Destany",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23413814",
+        "tenantId": null
+      },
+      {
+        "reference": "c2cfead7-8296-40da-8821-87537b7b73a9",
+        "email": "Jimmy37@hotmail.com",
+        "firstName": "Reynold",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1112.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "429235a1-cc26-4e14-977b-812365a1d199",
+        "email": "Lottie.Lockman@yahoo.com",
+        "firstName": "Pablo",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75720510",
+        "tenantId": null
+      },
+      {
+        "reference": "2d614674-18ae-4bf4-906e-b1def8121a8c",
+        "email": "Seth96@yahoo.com",
+        "firstName": "Edgardo",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45409151",
+        "tenantId": null
+      }
+    ]
+  }
+]
